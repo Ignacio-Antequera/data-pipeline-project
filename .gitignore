@@ -4,6 +4,13 @@ dbt_packages/
 logs/
 dbt_modules/
 
+# Airflow / Astronomer
+.astro/
+airflow_logs/
+.airflow_db_initialized
+*.db
+*.log
+
 # Python
 .venv/
 venv/
@@ -12,6 +19,9 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+*.egg-info/
+dist/
+build/
 
 # OS files
 .DS_Store
@@ -26,3 +36,5 @@ Thumbs.db
 # Environment variables (if you have them)
 .env
 profiles.yml
+airflow.cfg
+webserver_config.py
