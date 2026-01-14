@@ -7,7 +7,7 @@ sources:
     tables:
       - name: orders
         columns:
-          - name: orderkey
+          - name: o_orderkey
             tests:
               - unique
               - not_null
